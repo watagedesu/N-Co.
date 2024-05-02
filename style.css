@@ -1,0 +1,187 @@
+@charset "UTF-8";
+html {
+    font-size: 100%;
+}
+body{
+    font-family: "Inter", sans-serif;
+    line-height: 1.7;
+    color: #666;
+    background-color: #f5f5f5;
+}
+a {
+    text-decoration: none;
+}
+img {
+    max-width: 100%;
+}
+.wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 4%;
+}
+
+/*header-----------*/
+.page-header {
+    display: flex;
+    justify-content: space-between;
+    height: 97px;
+}
+.logo {
+    width: 156px;
+    height: 61px;
+    margin-top: 18px;
+    margin-left: 171px;
+}
+.main-nav {
+    display: flex;
+    font-size: 16pt;
+    text-transform: uppercase;
+    margin-top: 34px;
+    list-style: none;
+    margin-left: 422px;
+    margin-right: 179px;
+    white-space: nowrap;
+}
+.main-nav a{
+    margin-right: 40px;
+    color: #666;
+}
+
+
+/*hero-------*/
+.hero{
+    background-image: url(../images/hero-image.jpg);
+    max-width: 100%;
+    height: 760px;
+    margin: auto;
+    padding: 0;
+    text-align: center;
+    font-weight: normal;
+}
+.hero h2{
+    font-size: 24pt;
+    color: #fff;
+    font-family: "montserrat";
+    padding-top: 170px;
+}
+.hero p{
+    font-size: 48pt;
+    padding-top: 9px;
+}
+
+/*intro----------*/
+.intro{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 140px 254px;
+}
+img{
+    display: block;
+    width: 448px;
+    height: 448px;
+    border-radius: 20%;
+}
+.intro-title h2{
+    font-size: 24pt;
+}
+.intro-title p{
+    font-size: 16pt;
+    padding-top: 50px;
+}
+.intro-title{
+    overflow-wrap: break-word;
+    padding-top: 34px;
+    width: 351px;
+    height: 232px;
+}
+
+/*frame---------*/
+.frame{
+    max-width: 100%;
+    background-color: #EFF6EE;
+    display: flex;
+    justify-content: center;
+    height: 570px;
+}
+.card p{
+    color: #5B9A57;
+    font-size: 16pt;
+    font-family:  "montserrat";
+}
+.card h1{
+    font-size: 32pt;
+    font-family:  "montserrat";
+    color: #666;
+}
+.card img{
+    width: 352px;
+    height: 256px;
+    margin-top: 100px;
+}
+.card{
+    margin-right: 32px;
+}
+.card a{
+    margin-top: 34px;
+}
+
+/*news-----*/
+.news{
+    max-width: 100%;
+    text-align: center;
+}
+.news-title{
+    padding: 140px 265px;
+    font-family: "montserrat";
+    padding: 140px 265px;
+}
+.news-title p{
+    color: #5B9A57;
+    font-size: 16pt;
+    margin-bottom: 4px;
+}
+.news-title h1{
+    font-size: 40pt;
+    margin-bottom: 17px;
+}
+.news ul{
+    list-style: none;
+    margin-bottom: 17px;
+    width: 910px;
+}
+.news li{
+    display: flex;
+    font-size: 16pt;
+    white-space: nowrap;
+    font-family: "Note Sans JP";
+    border-top: 1px solid #bfbfbf;
+    line-height: 80px;
+}
+.date{
+    margin-right: 112px;
+    margin-left: 48.5px;
+}
+.title{
+    margin-right: 48.5px;
+}
+.button{
+    margin-top: 17px;
+    color: #fff;
+    font-size: 16pt;
+    font-family: "Note Sans JP";
+    background-color: #BAD2B8;
+    padding: 8px;
+}
+/*footer-----*/
+footer{
+    background-color: #D9D9D9;
+    height: 120px;
+}
+footer p{
+    font-family: Note Sans JP;
+    color: #fff;
+    font-size: 16pt;
+    text-align: center;
+    padding: 48px;
+}
