@@ -7,6 +7,7 @@ body{
     line-height: 1.7;
     color: #666;
     background-color: #f5f5f5;
+    margin: 0;
 }
 a {
     text-decoration: none;
@@ -24,22 +25,22 @@ img {
 .page-header {
     display: flex;
     justify-content: space-between;
-    height: 97px;
+    height: 88px;
 }
 .logo {
-    width: 156px;
-    height: 61px;
-    margin-top: 18px;
-    margin-left: 171px;
+    width: 121px;
+    height: 30px;
+    margin-top: 29px;
+    margin-left: 160px;
 }
 .main-nav {
     display: flex;
-    font-size: 16pt;
+    font-size: 16px;
     text-transform: uppercase;
     margin-top: 34px;
     list-style: none;
-    margin-left: 422px;
-    margin-right: 179px;
+    margin-left: 487px;
+    margin-right: 160px;
     white-space: nowrap;
 }
 .main-nav a{
@@ -53,20 +54,22 @@ img {
     background-image: url(../images/hero-image.jpg);
     max-width: 100%;
     height: 760px;
-    margin: auto;
+    margin-top: 0;
     padding: 0;
+}
+.hero h2{
+    font-size: 24px;
+    color: #fff;
+    font-family: "montserrat";
+    padding-top: 105px;
     text-align: center;
     font-weight: normal;
 }
-.hero h2{
-    font-size: 24pt;
-    color: #fff;
-    font-family: "montserrat";
-    padding-top: 170px;
-}
-.hero p{
-    font-size: 48pt;
-    padding-top: 9px;
+.hero h1{
+    font-size: 48px;
+    padding: 15px;
+    text-align: center;
+    font-weight: normal;
 }
 
 /*intro----------*/
@@ -74,85 +77,82 @@ img {
     max-width: 100%;
     display: flex;
     justify-content: space-between;
-    margin: 140px 254px;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 140px 256px;
 }
 img{
     display: block;
     width: 448px;
     height: 448px;
     border-radius: 20%;
+    width: 48%;
 }
-.intro-title h2{
-    font-size: 24pt;
+.box  h2{
+    font-size: 24px;
 }
-.intro-title p{
-    font-size: 16pt;
-    padding-top: 50px;
+.box  p{
+    font-size: 16px;
+    padding-top: 17px;
 }
-.intro-title{
-    overflow-wrap: break-word;
-    padding-top: 34px;
-    width: 351px;
-    height: 232px;
+.box{
+    width: 48%;
 }
+
 
 /*frame---------*/
 .frame{
     max-width: 100%;
     background-color: #EFF6EE;
+    height: 536px;
     display: flex;
-    justify-content: center;
-    height: 570px;
+    justify-content: space-between;
+    padding: 100px 158px;
 }
 .card p{
     color: #5B9A57;
-    font-size: 16pt;
+    font-size: 16px;
     font-family:  "montserrat";
+    margin-top: 16px;
 }
 .card h1{
-    font-size: 32pt;
+    font-size: 32px;
     font-family:  "montserrat";
     color: #666;
 }
 .card img{
     width: 352px;
     height: 256px;
-    margin-top: 100px;
+    border-radius: 20%;
 }
-.card{
-    margin-right: 32px;
-}
-.card a{
-    margin-top: 34px;
-}
+
+
 
 /*news-----*/
 .news{
     max-width: 100%;
-    text-align: center;
+    padding: 140px 256px;
 }
 .news-title{
-    padding: 140px 265px;
     font-family: "montserrat";
-    padding: 140px 265px;
+    text-align: center;
 }
 .news-title p{
     color: #5B9A57;
-    font-size: 16pt;
-    margin-bottom: 4px;
+    font-size: 16px;
 }
 .news-title h1{
-    font-size: 40pt;
-    margin-bottom: 17px;
+    font-size: 40px;
+    margin-bottom: 50px;
 }
 .news ul{
     list-style: none;
-    margin-bottom: 17px;
+    margin-bottom: 50px;
     width: 910px;
 }
 .news li{
     display: flex;
-    font-size: 16pt;
+    font-size: 16px;
     white-space: nowrap;
     font-family: "Note Sans JP";
     border-top: 1px solid #bfbfbf;
@@ -161,17 +161,23 @@ img{
 .date{
     margin-right: 112px;
     margin-left: 48.5px;
+    text-align: left;
 }
 .title{
     margin-right: 48.5px;
+    text-align: center;
 }
 .button{
+    width: 176px;
+    height: 40px;
     margin-top: 17px;
     color: #fff;
-    font-size: 16pt;
+    font-size: 16px;
     font-family: "Note Sans JP";
     background-color: #BAD2B8;
-    padding: 8px;
+    text-align: center;
+    border-radius: 8%;
+    padding: 8px 32px;
 }
 /*footer-----*/
 footer{
@@ -181,7 +187,7 @@ footer{
 footer p{
     font-family: Note Sans JP;
     color: #fff;
-    font-size: 16pt;
+    font-size: 16px;
     text-align: center;
     padding: 48px;
 }
