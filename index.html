@@ -6,118 +6,91 @@
     <meta name="decription" content="オーガニック原料を中心とした製品で、肌本来の力を取り戻すお手伝いをします。">
     <meta name="viewport" content="width=devoce-width,initial-scale=1">
     <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css">
+    <link href="css/reset.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
 </head>
 <body>
 
- <!--/.header--------->
-    <header class="page-header wrapper">
-        <a href="index.html">
-            <img class="logo" src="images/logo.png" alt="N&CO.ホーム">
-        </a>
-        <nav>
-            <ul class="main-nav">
-                <li>
-                    <a href="about.html">会社情報</a>
-                </li>
-                <li>
-                    <a href="product.html">商品紹介</a>
-                </li>
-                <li>
-                    <a href="recruit.html">採用情報</a>
-                </li>
-                <li>
-                    <a href="news.html">ニュース</a>
-                </li>
-                <li>
-                    <a href="contact.html">お問い合わせ</a>
-                </li>
-            </ul>
-        </nav>
-    </header>
+<!----/.header-->
+<header>
+  <div class="logo">
+    <img src="images/logo.png" alt="N&CO.">
+  </div>
+  <button type="button" class="btn js-btn">
+    <span class="btn-line"></span>
+  </button>
+    <nav>  
+      <ul class="menu">
+       <li><a href="">会社情報</a></li>   
+       <li><a href="">商品紹介</a></li>       
+       <li><a href="">採用情報</a></li>      
+       <li><a href="">ニュース</a></li>        
+       <li><a href="">お問い合わせ</a></li> 
+      </ul>
+    </nav>
+  </div>
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+  <script src="js/script.js"></script>
+</header>
 
-<!--/.hero-------->
-    <div class="hero wrapper">
-        <h2>INSIDE OUT</h2>
-        <h1 class="title">内と外から、未来の美しいを創ります。</h1>
+<!----/.hero-->
+<section class="hero">
+    <div class="title">INSIDE OUT</div>
+    <h1>内と外から、未来の美しいを創ります。</h1>
+</section>
+
+<!----/.intro-->
+<section class="intro flex">
+<div class="intro_box flex-item">
+    <h2 class="intro-title">オーガニック原料を中心とした製品で、<br>肌本来の力を取り戻すお手伝いをします。</h2>
+    <p>この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。</p>
+</div>
+<div class="intro_box flex-item"><img src="images/intro-photo.png"></div>
+</section>
+
+<!----/.service-->
+<section class="service">
+  <div class="cont flex">
+   <div class="flex-item">
+    <img src="images/company.jpg" class="seavice_img">
+    <span class="font_s">ABOUT</span>
+    <h2 class="service-title">会社情報</h2>
+   </div>
+  <div class="flex-item">
+    <img src="images/product.jpg" class="seavice_img">
+    <span class="font_s">PRODUCT</span>
+    <h2 class="service-title">商品情報</h2>
+  </div>
+  <div class="flex-item">
+    <img src="images/recruit.jpg" class="seavice_img">
+    <span class="font_s">RICRUIT</span>
+    <h2 class="service-title">採用情報</h2>
+  </div>
+ </div>
+</section>
+
+<!----/.news-->
+<section class="news">
+<div class="center">
+    <span class="font_s">news</span>
+    <h2>最新ニュース</h2>
     </div>
+<div class="cont news_box">
+    <p class="news_text"><span class="days">2022/05/24</span>この文章は、ダミーです。文字の大きさ、量、行間等を確認するために入れています。</p>
+    <p class="news_text"><span class="days">2022/05/24</span>この文章は、ダミーです。文字の大きさ、量、行間等を確認するために入れています。</p>
+    <p class="news_text"><span class="days">2022/05/24</span>この文章は、ダミーです。文字の大きさ、量、行間等を確認するために入れています。</p>
+    <p class="news_text"><span class="days">2022/05/24</span>この文章は、ダミーです。文字の大きさ、量、行間等を確認するために入れています。</p>
+    <p class="news_text"><span class="days">2022/05/24</span>この文章は、ダミーです。文字の大きさ、量、行間等を確認するために入れています。</p>
+</div>
+<a href="" class="news-btn">ニュース一覧へ</a>
+</section>
 
-<!---/.intro---------->
-    <div class="intro wrapper">
-      <div class="box">
-        <h2>オーガニック原料を中心とした製品で、肌本来の力を取り戻すお手伝いをします。</h2>
-        <p>この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。この文章はダミーです。文字の大きさ、量、字間、行間等を確認するために入れています。</p>
-      </div>
-        <div class="intoro-image">
-        <img src="images/intro-photo.png" alt="intro-photo">
-        </div>
-    </div>
-
-<!---/.frame--------->
-    <div class="frame wrapper">
-        <div class="card">
-            <img src="images/company.jpg" alt="会社情報">
-            <a href="about.html">
-                <p>ABOUT</p>
-                <h1>会社情報</h1>
-            </a>
-        </div>
-        <div class="card">
-            <img src="images/product.jpg" alt="商品情報">
-            <a href="product.html">
-                <p>PRODUCT</p>
-                <h1>商品情報</h1>
-            </a>
-        </div>
-        <div class="card">
-            <img src="images/recruit.jpg" alt="採用情報">
-            <a href="recruit.html">
-                <p>RECRUIT</p>
-                <h1>採用情報</h1>
-            </a>
-        </div>
-    </div>
-
-<!---/.news------->
-    <div class="news wrapper">
-        <div class="news-title">
-            <p>news</p>
-            <h1>最新ニュース</h1>
-        <ul>
-            <li>
-                <div class="date">2021.5.19</div>
-                <span class="title">この文章は、ダミーです。文字の大きさ、量、行間等を確認するために入れています。</span>
-            </li>
-            <li>
-                <div class="date">2021.5.19</div>
-                <span class="title">この文章は、ダミーです。文字の大きさ、量、行間等を確認するために入れています。</span>
-            </li>
-            <li>
-                <div class="date">2021.5.19</div>
-                <span class="title">この文章は、ダミーです。文字の大きさ、量、行間等を確認するために入れています。</span>
-            </li>
-            <li>
-                <div class="date">2021.5.19</div>
-                <span class="title">この文章は、ダミーです。文字の大きさ、量、行間等を確認するために入れています。</span>
-            </li>
-            <li>
-                <div class="date">2021.5.19</div>
-                <span class="title">この文章は、ダミーです。文字の大きさ、量、行間等を確認するために入れています。</span>
-            </li>
-        </ul>
-        <a class="button" href="news.html">ニュース一覧へ</a>
-        </div>
-    </div>
-
-<!---/.footer----->
+<!----/.footer-->
 <footer>
-    <div class="wrapper">
-        <p>
-            <small>Copyright © N & Co. Allrights Reserved.</small>
-        </p>
-    </div>
+   <div class="copy">Copyright ©N & Co.All rights Reserved.  </div>
 </footer>
 </body>
